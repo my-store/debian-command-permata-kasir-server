@@ -1,0 +1,4 @@
+server_path="$HOME/Documents/Programming/NodeJS/permata-kasir-backend"
+
+npm --prefix $server_path run build:with:frontend
+npm --prefix $server_path run start:prod
